@@ -1,6 +1,7 @@
 # Folders to ignore #
 #####################
 output/
+ipynb_checkpoints/
 
 # Files to ignore #
 ###################
@@ -9,3 +10,5 @@ output/
 *.swp
 
 Makefile
+
+_nb_header.html
