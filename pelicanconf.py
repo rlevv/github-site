@@ -39,6 +39,17 @@ BOOTSTRAP_THEME = 'flatly'
 
 PLUGIN_PATHS = ['pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 
+           'series', 
+           'tag_cloud', 
+           'liquid_tags.youtube',
+           'liquid_tags.notebook',
+           'liquid_tags.include_code',
+           'render_math',
+           'pelican-ipynb.markup']
 
 I18N_TEMPLATES_LANG = 'en'
+
+NOTEBOOK_DIR = 'notebooks'
+
+IGNORE_FILES = ['.ipynb_checkpoints']
