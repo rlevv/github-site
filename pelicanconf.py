@@ -46,10 +46,17 @@ PLUGINS = ['i18n_subsites',
            'liquid_tags.notebook',
            'liquid_tags.include_code',
            'render_math',
-           'pelican-ipynb.markup']
+           'pelican-ipynb.markup',
+           'tipue_search']
 
 I18N_TEMPLATES_LANG = 'en'
 
+# Location of notebooks
 NOTEBOOK_DIR = 'notebooks'
 
+# Don't try to render backup notebooks
 IGNORE_FILES = ['.ipynb_checkpoints']
+
+# For Tique Search
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'authors', 'archives', 'search')
+
