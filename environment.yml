@@ -5,6 +5,7 @@ dependencies:
   - appnope=0.1.0=py37_0
   - attrs=19.1.0=py37_1
   - backcall=0.1.0=py37_0
+  - beautifulsoup4=4.7.1=py37_1
   - bleach=3.1.0=py37_0
   - ca-certificates=2019.5.15=0
   - certifi=2019.3.9=py37_0
@@ -69,6 +70,7 @@ dependencies:
   - send2trash=1.5.0=py37_0
   - setuptools=41.0.1=py37_0
   - sip=4.19.8=py37h0a44026_0
+  - soupsieve=1.8=py37_0
   - sqlite=3.28.0=ha441bb4_0
   - terminado=0.8.2=py37_0
   - testpath=0.4.2=py37_0
@@ -87,6 +89,7 @@ dependencies:
     - docutils==0.14
     - feedgenerator==1.9
     - ghp-import==0.5.5
+    - gnureadline==6.3.8
     - markdown==3.1.1
     - pelican==4.0.1
     - pytz==2019.1

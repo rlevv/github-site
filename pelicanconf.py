@@ -6,7 +6,7 @@ AUTHOR = 'Ryan Levitt'
 SITENAME = 'Ryan Levitt Programmer'
 SITEURL = ''
 
-PATH = 'content'
+PATH = 'content/posts'
 
 TIMEZONE = 'America/New_York'
 
@@ -60,3 +60,12 @@ IGNORE_FILES = ['.ipynb_checkpoints']
 # For Tique Search
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'authors', 'archives', 'search')
 
+CUSTOM_CSS = 'static/css/custom.css'
+CUSTOM_JS = 'static/js/custom.js'
+
+STATIC_PATHS = ['extra']
+
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/css/custom.css'},
+    'extra/custom.js': {'path': 'static/js/custom.js'}
+}
